@@ -1,0 +1,366 @@
+.row, .col-sm{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.toggle{
+    width: 100%;
+    height: 100vh;
+    background-color: #051F4B;
+    position: absolute;
+    display: block;
+    z-index: 7000;
+    padding: 20px;
+    top: 0px;
+    .close{
+        color: white;
+    }
+    .menu{
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+     margin-top: 140px;
+     button{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        width: 100%;
+        margin-bottom: 60px;
+        font-size: 20px;
+     }
+    }
+}
+.body{
+    max-width: 100%;
+    height: 100vh;
+    background-color: #051F4B;
+    overflow-y: hidden;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.header{
+width: 100%;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: transparent;
+padding: 50px;
+position: fixed;
+top: 5%;
+z-index: 2000;
+.logo{
+width: 90px;
+height: 90px;
+font-family: sans-serif;
+border-radius: 100%;
+background-color: white;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+
+}
+.side{
+    display: flex;
+    button{
+        font-family: sans-serif;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin-right: 120px;
+    }
+}
+.bars{
+    color: white;
+    display: none;
+}
+}
+
+.mybody{
+    color: white;
+    img{
+        width: 100%;
+        opacity: 0.4;
+    }
+    p{
+        position: absolute;
+        top: 40%;
+        left:12%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    }
+}
+@media(max-width:1024px){
+  .header{
+    padding: 30px;
+    position: fixed;
+    top: 2%;
+    .logo{
+        width: 100px;
+        height: 100px;
+        font-weight: bold;
+        font-size: 12px;
+        
+        }
+    .side{
+        display: none;
+    }
+
+    .bars{
+     display: inherit;
+     font-size: 35px;
+    }
+  }
+  .mybody{
+    img{
+        width: 100%;
+        height: 100vh;
+    }
+    p{
+        position: absolute;
+        top: 40%;
+        left:0%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    }
+}
+.toggle{
+    .close{
+        color: white;
+        font-size: 60px;
+    }
+    .menu{
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+     margin-top: 290px;
+     button{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        width: 100%;
+        margin-bottom: 120px;
+        font-size: 35px;
+     }
+    }
+}
+}
+@media(max-width:768px){
+  .header{
+    padding: 10px;
+    position: fixed;
+    top: 2%;
+    .logo{
+        width: 90px;
+        height: 90px;
+        font-weight: bold;
+        font-size: 12px;
+        
+        }
+    .side{
+        display: none;
+    }
+
+    .bars{
+     display: inherit;
+     font-size: 28px;
+    }
+  }
+  .mybody{
+    img{
+        width: 100%;
+        height: 100vh;
+    }
+    p{
+        position: absolute;
+        top: 40%;
+        left:0%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    }
+}
+.toggle{
+    .close{
+        color: white;
+        font-size: 40px;
+    }
+    .menu{
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+     margin-top: 230px;
+     button{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        width: 100%;
+        margin-bottom: 120px;
+        font-size: 30px;
+     }
+    }
+}
+}
+@media(max-width:414px){
+  .header{
+    padding: 10px;
+    position: fixed;
+    top: 2%;
+    .logo{
+        width: 70px;
+        height: 70px;
+        font-weight: bold;
+        font-size: 12px;
+        
+        }
+    .side{
+        display: none;
+    }
+
+    .bars{
+     display: inherit;
+     font-size: 22px;
+    }
+  }
+  .mybody{
+    img{
+        width: 100%;
+        height: 100vh;
+    }
+    p{
+        position: absolute;
+        top: 40%;
+        left:0%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    }
+}
+.toggle{
+    width: 100%;
+    height: 100vh;
+    background-color: #051F4B;
+    position: absolute;
+    display: block;
+    z-index: 7000;
+    padding: 20px;
+    top: 0px;
+    .close{
+        color: white;
+        font-size: 30px;
+    }
+    .menu{
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+     margin-top: 140px;
+     button{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        width: 100%;
+        margin-bottom: 60px;
+        font-size: 20px;
+     }
+    }
+}
+}
+@media(max-width:360px){
+  .header{
+    padding: 10px;
+    position: fixed;
+    top: 2%;
+    .logo{
+        width: 70px;
+        height: 70px;
+        font-weight: bold;
+        font-size: 12px;
+        
+        }
+    .side{
+        display: none;
+    }
+
+    .bars{
+     display: inherit;
+    }
+  }
+  .mybody{
+    img{
+        width: 100%;
+        height: 100vh;
+    }
+    p{
+        position: absolute;
+        top: 40%;
+        left:0%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    }
+}
+.toggle{
+    width: 100%;
+    height: 100vh;
+    background-color: #051F4B;
+    position: absolute;
+    display: block;
+    z-index: 7000;
+    padding: 20px;
+    top: 0px;
+    .close{
+        color: white;
+    }
+    .menu{
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+     margin-top: 140px;
+     button{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        width: 100%;
+        margin-bottom: 60px;
+        font-size: 20px;
+     }
+    }
+}
+}
